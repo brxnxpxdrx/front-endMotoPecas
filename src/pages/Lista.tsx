@@ -19,8 +19,19 @@ export default function Lista() {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  div{
+     background-color: white;
+      padding: 2vw 0;
+      margin: 1vw 0; 
+       border-radius: 10px;
+       border: 1px solid black;
+
+     };
+   
+  font-weight: bold;
      align-items : center;
      gap: 20px
+     
 
   `
   return (

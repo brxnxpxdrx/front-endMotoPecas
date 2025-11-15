@@ -7,6 +7,9 @@ import Cadastro from './pages/cadastro'
 import Lista from './pages/Lista'
 import Header from './components/header'
 import Home from './pages/home';
+import CadastroServicos from './pages/CadastroServicos';
+import ListarServicos from './pages/ListarServicos';
+import Vendas from './pages/Vendas';
 
 function App() {
  
@@ -16,6 +19,11 @@ function App() {
   <Route path='/' element =  {<Home/>} />
                 <Route path="/lista" element={<Lista />} />
                 <Route path="/cadastro" element={<Cadastro />} />
+                <Route path='/cadastro-servicos' element={<CadastroServicos />} />
+                <Route path='/listar-servicos' element={<ListarServicos />} />
+                <Route path='/venda' element={<Vendas />} />
+
+
                 </Routes>
     </>
   )

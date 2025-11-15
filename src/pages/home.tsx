@@ -50,7 +50,7 @@ div{
     <Container>
     <div className="div1">
       <img src="/vendas.png" alt="" />  
- <div className="title">   Vendas</div>
+ <div className="title"> <Link to='/venda'> Vendas</Link> </div>
     </div>
       <div className="div2">
         <img src="/estoque-pronto.png" alt="" />
@@ -58,15 +58,15 @@ div{
     </div>
       <div className="div3">
         <img src="/servico-tecnico.png" alt="" />
-     <div className="title"> Serviços</div>  
+     <div className="title"> <Link to='/listar-servicos'> Serviços</Link></div>  
     </div>
       <div className="div4">
         <img src="/cadastro.png" alt="" />
- <div className="title">Cadastrar Serviços</div>  
+ <div className="title"> <Link to='/cadastro-servicos'> Cadastrar Serviços</Link></div>  
     </div>
       <div className="div5">
         <img src="/cadastro.png" alt="" />
- <div className="title">Cadastrar Produtos</div>   
+ <div className="title"><Link to='/cadastro'> Cadastrar Produtos</Link></div>   
     </div>
     </Container>
   

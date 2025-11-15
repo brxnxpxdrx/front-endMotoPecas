@@ -32,9 +32,9 @@ export default function Header() {
                     <StyledLink to="/cadastro">Cadastrar Produto</StyledLink>
                 </li>
                 <li>
-                    Cadastrar Serviços
+                 <StyledLink to='/cadastro-servicos'>  Cadastrar Serviços</StyledLink> 
                 </li>
-                <li>Vendas</li>
+                <li> <StyledLink to='/venda'> Vendas</StyledLink></li>
             </ul>   
         </nav>
     </header>
