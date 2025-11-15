@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+
+body{
+ background: #ffff url(https://cobrarolamentos.com.br/wp-content/uploads/2021/06/motopecas-01-3.jpg) center center/cover no-repeat;
+}

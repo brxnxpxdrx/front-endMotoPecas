@@ -6,13 +6,15 @@ import axios from 'axios'
 import Cadastro from './pages/cadastro'
 import Lista from './pages/Lista'
 import Header from './components/header'
+import Home from './pages/home';
 
 function App() {
  
   return (
     <>
 <Routes>
-                <Route path="/" element={<Lista />} />
+  <Route path='/' element =  {<Home/>} />
+                <Route path="/lista" element={<Lista />} />
                 <Route path="/cadastro" element={<Cadastro />} />
                 </Routes>
     </>

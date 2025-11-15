@@ -25,7 +25,7 @@ export default function Header() {
         <nav>
             <ul>    
                 <li>
-                  <StyledLink to="/">Estoque </StyledLink>
+                  <StyledLink to="/lista">Estoque </StyledLink>
                 </li>
                 <li>    
 

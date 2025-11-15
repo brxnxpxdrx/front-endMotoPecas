@@ -4,9 +4,8 @@ header{
     display: flex;
     align-items: center;justify-content: start;
     gap: 20px;
-    background: #d9b218;
-background: linear-gradient(90deg, rgba(217, 178, 24, 1) 0%, rgba(247, 210, 141, 1) 65%, rgba(255, 255, 255, 1) 100%);
-    text-decoration: none;
+     text-decoration: none;
+     background-color:#ff131d;
     img{
         height: 50px;
         
