@@ -2,6 +2,40 @@ import { useEffect,useState } from "react"
 import api from "../config/api"
 import axios from "axios"
 import Header from "../components/header"
+import styled from "styled-components"
+
+
+    const Container = styled.div `
+     margin-top: 80px;
+   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  form span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  form input {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+     
+ 
+
+  `
+    const Title = styled.h2`    font-size:45px`
 export default function CadastroServicos() {
     const[servicos, setServicos]= useState( [] ) 
    const[nome, setNome] = useState('') 
@@ -36,9 +70,9 @@ export default function CadastroServicos() {
 
   console.log(servicos)
   return (
-    <div>
+    <Container >
         <Header></Header>
-       hello
+  <Title>Cadastro de Serviços</Title>
        <form action="submit">
         <span>
             <p>Nome</p>
@@ -55,6 +89,6 @@ export default function CadastroServicos() {
 
        </form>
 
-    </div>
+    </Container>
   )
 }

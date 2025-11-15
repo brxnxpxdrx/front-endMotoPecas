@@ -15,6 +15,7 @@ export default function Lista() {
     fetchPecas()
   }, [])
   const Container = styled.div `
+   margin-top: 80px;
   width:100%;
   display: flex;
   flex-direction: column;

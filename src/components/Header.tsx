@@ -27,6 +27,10 @@ export default function Header() {
                 <li>
                   <StyledLink to="/lista">Estoque </StyledLink>
                 </li>
+                  <li>
+                  <StyledLink to="/listar-servicos">Servicos </StyledLink>
+                </li>
+                    
                 <li>    
 
                     <StyledLink to="/cadastro">Cadastrar Produto</StyledLink>

@@ -12,3 +12,7 @@ body {
               center center / cover 
               no-repeat fixed;
 }
+
+main {
+  padding-top: 80px; /* mesmo tamanho do header */
+}
