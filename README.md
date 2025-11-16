@@ -1,74 +1,102 @@
-# React + TypeScript + Vite
+# 🛠 Front-End Moto Peças
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto front-end para loja de peças de moto, com interface para exibir produtos, serviços e permitir interações com o usuário.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+- Exibição de lista de peças  
+- Exibição de lista de serviços  
+- Interface responsiva (mobile / desktop)  
+- Consulta de detalhes de peças  
+- Formulário para contato / orçamento  
+- Consumo de API (back-end) para autenticação e dados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- HTML5  
+- CSS3 (ou pré-processador, se usar)  
+- JavaScript vanilla / ou framework (React / Vue / etc — ajustar conforme seu projeto)  
+- Axios / Fetch para chamadas HTTP  
+- Bootstrap / Tailwind / CSS customizado (depende da implementação)  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Estrutura de Pastas (Exemplo)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+/front-endMotoPecas
+├── index.html
+├── styles/
+│ └── main.css
+├── scripts/
+│ └── app.js
+├── assets/
+│ ├── images/
+│ └── icons/
+├── components/ # se você usa componente ou modularizou
+└── README.md
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-"# front-endMotoPecas" 
+## 🚀 Como Executar
+
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/brxnxpxdrx/front-endMotoPecas.git
+Entre na pasta:
+
+
+cd front-endMotoPecas
+Abra o index.html no navegador ou use um servidor local (ex: Live Server do VSCode).
+
+🔌 Integração com API
+Este front-end consome sua API (backend) para:
+
+Obter lista de peças
+
+Obter lista de serviços
+
+Autenticar usuário (login)
+
+Enviar requisições de contato ou orçamento
+
+Certifique-se de configurar a URL base da API no seu código, por exemplo:
+
+
+const API_BASE = 'http://localhost:3000';  // ou URL da sua API online
+👨‍💻 Como Contribuir
+Fork este repositório
+
+Crie uma branch: git checkout -b minha-contribuicao
+
+Faça suas alterações
+
+Commit: git commit -m "Minha contribuição"
+
+Push: git push origin minha-contribuicao
+
+Abra um Pull Request
+
+❓ Ideias Futura
+Página de login / cadastro de usuário
+
+Painel de administração para peças e serviços
+
+Carrinho de compras para usuários
+
+Busca e filtro por peças
+
+Animações e melhorias visuais
+
+Testes unitários / e2e
+
+📄 Licença
+Esse projeto está sob a licença MIT .
+
+📌 Autor
+Bruno Siqueira
+GitHub | Contato: bnsiq2015@gmail.com
