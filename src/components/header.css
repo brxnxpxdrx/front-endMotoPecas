@@ -4,10 +4,11 @@ header{
   top: 0;
   left: 0;
   width: 100%;
+  padding: 0 2vw;
   
   z-index: 999;    height: 60px;
     display: flex;
-    align-items: center;justify-content: start;
+    align-items: center;justify-content: space-between;
     gap: 20px;
   
      text-decoration: none;
@@ -18,7 +19,7 @@ header{
     }
    nav{
         
-        width: 40%;
+        width: 60%;
         ul{
             display: flex;
             justify-content: space-between;

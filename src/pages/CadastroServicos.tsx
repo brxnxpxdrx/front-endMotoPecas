@@ -61,7 +61,7 @@ export default function CadastroServicos() {
         nome: nome,
         preco: preco
     }
-        axios.post('http://localhost:3000/cadastro-servicos', novoServico)
+        axios.post('/cadastro-servicos', novoServico)
         console.log(novoServico)
         setNome('')
         setPreco(0)

@@ -21,6 +21,12 @@ export default function Lista() {
   flex-direction: column;
   justify-content: center;
   div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
      background-color: white;
       padding: 2vw 0;
       margin: 1vw 0; 
@@ -39,12 +45,15 @@ export default function Lista() {
  <div>
       <Header></Header>   <Container>
       {pecas.map((peca:any) => (
-        <div key={peca._id}>
-          <h3>{peca.nome}</h3>
-          <p>{peca.descricao}</p>
-          <p>R$ {peca.preco}</p>
-          <p>Quantidade: {peca.quantidade}</p>
-          <p>{peca._id}</p>
+        <div  key={peca._id}>
+          <h3>NOME: {peca.nome}</h3>
+          <p>MODELO: {peca.descricao}</p>
+          <p>PREÇOR :${peca.preco}</p>
+          <p>QUANTIDADE: {peca.quantidade}</p>
+          <div>
+          <button>Editar</button>
+          <button>Excluir</button>
+         </div>
         </div>
       ))}
     </Container>

@@ -10,14 +10,16 @@ import Home from './pages/home';
 import CadastroServicos from './pages/CadastroServicos';
 import ListarServicos from './pages/ListarServicos';
 import Vendas from './pages/Vendas';
+import Login from './pages/Login';
 
 function App() {
  
   return (
     <>
-    <Header></Header>
+   <Header></Header>
 <Routes>
-  <Route path='/' element =  {<Home/>} />
+              <Route path='/' element =  {<Login/>} />
+              <Route path="/home" element={<Home/>} />
                 <Route path="/lista" element={<Lista />} />
                 <Route path="/cadastro" element={<Cadastro />} />
                 <Route path='/cadastro-servicos' element={<CadastroServicos />} />

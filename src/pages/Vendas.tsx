@@ -87,6 +87,10 @@ const [nome, setNome] = useState('')
           
         </li>
         <li>
+          <p>Serviço</p>
+          <input type="text" />
+        </li>
+        <li>
           <p>forma de pagamento</p>
            <div>
         <input
