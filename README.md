@@ -39,8 +39,6 @@ Projeto front-end para loja de peças de moto, com interface para exibir produto
 ├── components/ # se você usa componente ou modularizou
 └── README.md
 
-yaml
-Copiar código
 
 ---
 
@@ -51,8 +49,7 @@ Copiar código
    git clone https://github.com/brxnxpxdrx/front-endMotoPecas.git
 Entre na pasta:
 
-bash
-Copiar código
+
 cd front-endMotoPecas
 Abra o index.html no navegador ou use um servidor local (ex: Live Server do VSCode).
 
@@ -69,8 +66,7 @@ Enviar requisições de contato ou orçamento
 
 Certifique-se de configurar a URL base da API no seu código, por exemplo:
 
-js
-Copiar código
+
 const API_BASE = 'http://localhost:3000';  // ou URL da sua API online
 👨‍💻 Como Contribuir
 Fork este repositório
