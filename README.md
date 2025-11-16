@@ -19,9 +19,9 @@ Projeto front-end para loja de peças de moto, com interface para exibir produto
 
 - HTML5  
 - CSS3 (ou pré-processador, se usar)  
-- JavaScript vanilla / ou framework (React / Vue / etc — ajustar conforme seu projeto)  
+- React com Typescript
 - Axios / Fetch para chamadas HTTP  
-- Bootstrap / Tailwind / CSS customizado (depende da implementação)  
+- Styled-Components 
 
 ---
 
@@ -36,7 +36,7 @@ Projeto front-end para loja de peças de moto, com interface para exibir produto
 ├── assets/
 │ ├── images/
 │ └── icons/
-├── components/ # se você usa componente ou modularizou
+├── components/ 
 └── README.md
 
 
