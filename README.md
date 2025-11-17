@@ -2,7 +2,6 @@
 
 
 
-Uploading video app.mp4…
 
 
 
